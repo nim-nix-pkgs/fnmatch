@@ -11,6 +11,7 @@
   inputs.src-fnmatch-master.ref   = "refs/heads/master";
   inputs.src-fnmatch-master.owner = "achesak";
   inputs.src-fnmatch-master.repo  = "nim-fnmatch";
+  inputs.src-fnmatch-master.dir   = "";
   inputs.src-fnmatch-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
